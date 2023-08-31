@@ -6,7 +6,7 @@ import pandas as pd
 
 
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.multioutput import MultiOutputRegressor
+
 
 from src.logger import logging
 from src.exception import CustomException
@@ -20,15 +20,14 @@ def save_object(file_path, obj):
 
     except Exception as e:
         raise CustomException(e, sys)
-
-
-
+    
 def evaluate_models(X_train, y_train, X_test, y_test, models):
-   
     try:
-       report = {}
-       for i in range(len(list(models))):
+        report = {}
+        for i in range(len(list(models))):
             model = list(models.values())[i]
+
+            # Train Model
             model.fit(X_train, y_train)
 
             # Make Prediction
@@ -41,11 +40,12 @@ def evaluate_models(X_train, y_train, X_test, y_test, models):
 
             report[list(models.keys())[i]] = test_model_score
             
-            return report
-    
-    except Exception as e:
-        logging.info("Exception Occured During Model Training")
+        return report
+        
+    except Exception as e:    
+        logging.info("Exception Occurred During Model Training")
         raise CustomException(e, sys)
+
 
 
 def load_object(file_path):

@@ -11,7 +11,7 @@ class PredictPipeline:
 
     def predict(self, features):
         try:
-            preprocessor_path = os.path.join('artifcats', 'preprocessor.pkl')
+            preprocessor_path = os.path.join('artifacts', 'preprocessor.pkl')
             model_path = os.path.join('artifacts', 'model.pkl')
             preprocessor = load_object(preprocessor_path)
             model = load_object(model_path)
@@ -26,7 +26,7 @@ class PredictPipeline:
 
 
 class CustomData:
-    def __init_(self,
+    def __init__(self,
                 Username:str,
                 Caption:str,
                 Followers:int,
@@ -42,7 +42,7 @@ class CustomData:
                 'Username' :[self.Username],
                 'Caption' :[self.Caption],
                 'Followers':[self.Followers],
-                'Hashtags':[self.Hashatags]
+                'Hashtags':[self.Hashtags]
             }
 
             df = pd.DataFrame(custom_data_input_dict)
