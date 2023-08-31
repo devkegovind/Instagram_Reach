@@ -26,6 +26,7 @@ def save_object(file_path, obj):
 def evaluate_models(X_train, y_train, X_test, y_test, models):
    
     try:
+       report = {}
        for i in range(len(list(models))):
             model = list(models.values())[i]
             model.fit(X_train, y_train)
@@ -34,9 +35,14 @@ def evaluate_models(X_train, y_train, X_test, y_test, models):
             y_train_pred = model.predict(X_train)
             y_test_pred = model.predict(X_test)
 
+            # Get R2 score For Train & Test Data
+            train_model_score = r2_score(y_train, y_train_pred)
+            test_model_score = r2_score(y_test, y_test_pred)
+
+            report[list(models.keys())[i]] = test_model_score
             
-                                                                                                                                                                                            'MSE_Train', 'MSE_Test', 'RMSE_Train', 'RMSE_Test', 'R2SCORE_Train', 'R2SCORE_Test', 'R2SCOREDIFF']).sort_values(by = 'R2SCORE_Test', ascending = False)
-        return report
+            return report
+    
     except Exception as e:
         logging.info("Exception Occured During Model Training")
         raise CustomException(e, sys)
