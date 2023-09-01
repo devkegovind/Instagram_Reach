@@ -1,0 +1,33 @@
+[2023-09-01 11:22:27,726] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-09-01 11:22:27,731] 187 werkzeug - INFO -  * Debugger PIN: 128-826-096
+[2023-09-01 11:22:33,590] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:22:33] "GET / HTTP/1.1" 200 -
+[2023-09-01 11:22:34,142] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:22:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-09-01 11:22:43,118] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:22:43] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:24:56,381] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:24:56] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:26:19,509] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:26:19] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:29:47,706] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:29:47] "GET / HTTP/1.1" 200 -
+[2023-09-01 11:29:47,970] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:29:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-09-01 11:30:00,616] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:30:00] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:30:25,792] 49 root - INFO - Dataframe Gathered
+[2023-09-01 11:30:26,832] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:30:26] "POST /predict HTTP/1.1" 200 -
+[2023-09-01 11:32:25,397] 49 root - INFO - Dataframe Gathered
+[2023-09-01 11:32:25,410] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:32:25] "POST /predict HTTP/1.1" 200 -
+[2023-09-01 11:32:27,828] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:32:27] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:32:29,109] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:32:29] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:34:23,926] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:34:23] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:38:23,651] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:38:23] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:40:31,517] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:40:31] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:43:42,904] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:43:42] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:46:27,376] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:46:27] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:52:05,113] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:52:05] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:56:24,145] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:56:24] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 11:56:40,033] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 11:56:40] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:16:50,539] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:16:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:17:23,262] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:17:23] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:17:39,398] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:17:39] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:19:50,793] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:19:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:20:44,985] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:20:44] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:20:45,934] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:20:45] "GET /predict HTTP/1.1" 200 -
+[2023-09-01 12:26:55,584] 49 root - INFO - Dataframe Gathered
+[2023-09-01 12:26:55,622] 187 werkzeug - INFO - 127.0.0.1 - - [01/Sep/2023 12:26:55] "POST /predict HTTP/1.1" 200 -
+[2023-09-01 12:27:25,125] 187 werkzeug - INFO -  * Detected change in 'd:\\insta_reach\\app.py', reloading
